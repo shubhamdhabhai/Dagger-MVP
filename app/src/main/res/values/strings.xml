@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DemoProject</string>
+    <string name="search_repo">Search Repo</string>
+</resources>

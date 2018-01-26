@@ -8,7 +8,7 @@ import dagger.Component;
  * Created by shubhamdhabhai on 26/01/18.
  */
 
-@GithubRepoScope
+@RepoListScope
 @Component(dependencies = {GithubApiComponent.class}, modules = {RepoListModule.class})
 public interface RepoListComponent {
 

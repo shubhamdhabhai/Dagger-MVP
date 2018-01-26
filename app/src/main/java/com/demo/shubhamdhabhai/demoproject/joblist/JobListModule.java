@@ -1,6 +1,6 @@
 package com.demo.shubhamdhabhai.demoproject.joblist;
 
-import com.demo.shubhamdhabhai.demoproject.api.movie.JobApiService;
+import com.demo.shubhamdhabhai.demoproject.api.job.JobApiService;
 
 import dagger.Module;
 import dagger.Provides;

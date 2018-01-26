@@ -18,13 +18,13 @@ public class RepoListModule {
     }
 
     @Provides
-    @GithubRepoScope
+    @RepoListScope
     public RepoListContract.IRepoListPresenter providesRepoListPresenter(GitHubApiService apiService) {
         return new RepoListPresenter(repoListView, apiService);
     }
 
     @Provides
-    @GithubRepoScope
+    @RepoListScope
     public RepoListAdapter providesRepoAdapter() {
         return new RepoListAdapter();
     }

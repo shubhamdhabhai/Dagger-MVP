@@ -1,4 +1,4 @@
-package com.demo.shubhamdhabhai.demoproject.api.movie;
+package com.demo.shubhamdhabhai.demoproject.api.job;
 
 import com.demo.shubhamdhabhai.demoproject.model.Job;
 

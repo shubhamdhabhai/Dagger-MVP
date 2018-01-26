@@ -10,9 +10,9 @@ import android.widget.ProgressBar;
 import com.demo.shubhamdhabhai.demoproject.BaseActivity;
 import com.demo.shubhamdhabhai.demoproject.BaseApplication;
 import com.demo.shubhamdhabhai.demoproject.R;
-import com.demo.shubhamdhabhai.demoproject.api.movie.DaggerJobApiComponent;
-import com.demo.shubhamdhabhai.demoproject.api.movie.JobApiComponent;
-import com.demo.shubhamdhabhai.demoproject.api.movie.JobApiModule;
+import com.demo.shubhamdhabhai.demoproject.api.job.DaggerJobApiComponent;
+import com.demo.shubhamdhabhai.demoproject.api.job.JobApiComponent;
+import com.demo.shubhamdhabhai.demoproject.api.job.JobApiModule;
 import com.demo.shubhamdhabhai.demoproject.model.Job;
 
 import java.util.List;

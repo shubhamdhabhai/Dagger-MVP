@@ -1,11 +1,9 @@
 package com.demo.shubhamdhabhai.demoproject.joblist;
 
-import com.demo.shubhamdhabhai.demoproject.api.movie.JobApiService;
+import com.demo.shubhamdhabhai.demoproject.api.job.JobApiService;
 import com.demo.shubhamdhabhai.demoproject.model.Job;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import retrofit2.Call;
 import retrofit2.Callback;

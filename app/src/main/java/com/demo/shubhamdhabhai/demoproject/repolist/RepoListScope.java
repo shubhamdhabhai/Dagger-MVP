@@ -1,4 +1,4 @@
-package com.demo.shubhamdhabhai.demoproject.api.movie;
+package com.demo.shubhamdhabhai.demoproject.repolist;
 
 import javax.inject.Scope;
 
@@ -7,5 +7,5 @@ import javax.inject.Scope;
  */
 
 @Scope
-public @interface JobApiScope {
+public @interface RepoListScope {
 }

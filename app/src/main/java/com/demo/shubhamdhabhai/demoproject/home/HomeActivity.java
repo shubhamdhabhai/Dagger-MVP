@@ -1,19 +1,17 @@
 package com.demo.shubhamdhabhai.demoproject.home;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.EditText;
 
 import com.demo.shubhamdhabhai.demoproject.BaseActivity;
 import com.demo.shubhamdhabhai.demoproject.R;
+import com.demo.shubhamdhabhai.demoproject.joblist.JobListActivity;
+import com.demo.shubhamdhabhai.demoproject.repolist.RepoListActivity;
 
-import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class HomeActivity extends BaseActivity {
-
-    @BindView(R.id.et_username)
-    EditText userNameEt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,8 +20,13 @@ public class HomeActivity extends BaseActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick(R.id.tv_search_repo)
-    public void clickSearchRepo() {
-        // make api call
+    @OnClick(R.id.tv_get_job_list)
+    public void onJobListClicked() {
+        startActivity(new Intent(this, JobListActivity.class));
+    }
+
+    @OnClick(R.id.tv_github_repo)
+    public void onGithubRepoClicked() {
+        startActivity(new Intent(this, RepoListActivity.class));
     }
 }

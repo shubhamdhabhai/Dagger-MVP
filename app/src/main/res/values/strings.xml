@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">DemoProject</string>
     <string name="search_repo">Search Repo</string>
+    <string name="get_jobs">Get Jobs</string>
+    <string name="failed_to_load_jobs">Failed to load Jobs</string>
+    <string name="get_job_list">Get Job List</string>
+    <string name="get_gihub_repo_list">Get Gihub Repo List</string>
+    <string name="user_name">User name</string>
 </resources>

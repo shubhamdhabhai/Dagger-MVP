@@ -1,4 +1,4 @@
-package com.demo.shubhamdhabhai.demoproject.api;
+package com.demo.shubhamdhabhai.demoproject.api.github;
 
 import com.demo.shubhamdhabhai.demoproject.model.Repo;
 
